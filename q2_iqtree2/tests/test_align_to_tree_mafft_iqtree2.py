@@ -12,7 +12,7 @@ from qiime2.plugin.testing import TestPluginBase
 from qiime2 import Artifact
 
 
-class AlignToTreeMafftFasttreePipelineTest(TestPluginBase):
+class AlignToTreeMafftIqtreePipelineTest(TestPluginBase):
     package = 'q2_iqtree2.tests'
 
     def setUp(self):

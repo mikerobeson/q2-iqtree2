@@ -8,7 +8,7 @@
 
 from ._iqtree2 import iqtree, iqtree_ultrafast_bootstrap
 from ._version import get_versions
-from ._align_to_tree_mafft_iqtree import align_to_tree_mafft_iqtree
+from ._align_to_tree_mafft_iqtree2 import align_to_tree_mafft_iqtree
 
 __version__ = get_versions()['version']
 del get_versions
